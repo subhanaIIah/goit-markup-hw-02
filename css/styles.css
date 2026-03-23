@@ -1,152 +1,128 @@
 body {
-    font-family:Roboto, Raleway, sans-serif;
-    background-color: #FFFFFF;
-    width: 1440px;
-    height: 3300px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    font-weight: normal;
 }
-.title {
-    background-color: #2E2F42;
+.logo {
+    color: #4D5AE5;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+nav ul{
+    list-style-type: none;
+}
+nav a {
+    text-decoration: none;
+}
+nav a:hover {
+    color: #404BBF;
+}
+nav a:focus {
+    color: #404BBF;
+}
+.address ul {
+    list-style-type: none;
+}
+.address a {
+    text-decoration: none;
+}
+.address a:focus {
+    color: #404BBF;
+}
+.address a:hover {
+    color: #404BBF;
+}
+h1 {
+    font-size: 56px;
+    line-height: 60px;
     color: #ffffff;
-    width: 1440px;
-    height: 600px;
-    display: flex;
-  flex-direction: column;   /* заголовок над кнопкою */
-  justify-content: center;  /* центрує по вертикалі */
-  align-items: center;      /* центрує по горизонталі */
-  text-align: center;
+    text-align: center;
+    font-weight: bold;
 }
 .button {
-    width: 169px;
-    height: 56px;
+    size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
     background-color: #4D5AE5;
     color: #ffffff;
     border: none;
-    cursor: pointer;
-}
-h3 {
     
-    font-family:Roboto, sans-serif;
-    font-weight:500;
 }
-p {
-    font-family:Roboto, sans-serif;
-    font-weight:400;
+.button:hover {
+    background-color: #2E2F42;
 }
-.blue {
-    color: #4D5AE5;
-    font-family: Raleway, sans-serif;
-    font-weight: bold;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-.white {
-    color: #F4F4FD;
-    font-family: Raleway, sans-serif;
-    font-weight: bold;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-.black {
-    color: #2E2F42;
-    font-family: Raleway, sans-serif;
-    font-weight: bold;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-h1, h2 {
-    font-family: Roboto, sans-serif;
-    font-weight: bold;
-}
-.button-wrapper {
-    display: flex;
-    justify-content: center;
-}
-header {
-    background-color: #E7E9FC;
-    display: flex;
-  justify-content: space-between; 
-  align-items: center;
-  width: 1440px;
-  height: 72px;
-}
-.logo {
-    text-decoration: none;
-}
-.navigation ul {
-    display: flex;
-    gap: 30px;
-    list-style: none;
-}
-.navigation a {
-    text-decoration: none;
-}
-address ul {
-    list-style-type: none;
-     display: flex;
-  gap: 15px; 
-  list-style: none;
-}
-.contacts {
-    display: flex;
-    gap: 20px;
-}
-ul {
-    display: flex;
-    list-style-type: none;
-    align-items: center;
-    justify-content:space-between ;
-}
-.features {
-    background-color: #ffffff;
-    width: 1440px;
-    height: 344px;
+.title {
+    background-color: #2E2F42;
 }
 .features ul {
-    display: flex;
-    gap: 8px;
-    list-style: none;
-    justify-content: center;
-}
-.features h2 {
-    text-align: center;
-}
-.team {
-    background-color: #F4F4FD;
-    width: 1440px;
-    height: 744px;
-}
-.team ul {
-    display: flex;
-   justify-content:center;
-    gap: 32px;
-    text-align: center;
+    list-style-type: none;
 }
 .team h2 {
     text-align: center;
-    
+    font-weight: bold;
+    size: 36px;
+    letter-spacing: 2%;
 }
-#portfolio {
-    background-color: #E7E9FC;
-    width: 1440px;
-    height: 1240px;
-    
+.team {
+    background-color: #F4F4FD;
 }
-#portfolio ul {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-    list-style: none;
+.team ul {
+    background-color: #ffffff;
+    list-style-type: none;
 }
-#portfolio li {
+.team h3 {
     text-align: center;
-
+    font-weight: medium;
+    size: 20px;
+    letter-spacing: 2%;
 }
-#portfolio h2 {
+.team p {
     text-align: center;
+    size: 16px;
+    letter-spacing: 2%;
+    line-height: 24px;
+}
+.portfolio h2 {
+    text-align: center;
+    font-weight: bold;
+    size: 36px;
+    letter-spacing: 2%;
+}
+.portfolio ul {
+    list-style-type: none;
+}
+.portfolio h3 {
+    text-align: center;
+    font-weight: medium;
+    size: 20px;
+    letter-spacing: 2%;
+}
+.portfolio p {
+    text-align: center;
+    size: 16px;
+    letter-spacing: 2%;
+    line-height: 24px;
 }
 .footer {
     background-color: #2E2F42;
-    color: #F4F4FD;
-    width: 1440px;
-    height: 312px;
+    color: #ffffff;
+}
+.Web {
+    color: #4D5AE5;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.Studio {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.Studio2 {
+    color: #2E2F42;
+    text-transform: uppercase;
+    text-decoration: none;
 }
