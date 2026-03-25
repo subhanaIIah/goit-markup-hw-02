@@ -111,14 +111,12 @@ h1 {
     list-style-type: none;
 }
 .portfolio h3 {
-    text-align: center;
     font-weight: medium;
     font-size: 20px;
     letter-spacing: 0.2em;
     color: black;
 }
 .portfolio p {
-    text-align: center;
     font-size: 16px;
     letter-spacing: 0.2em;
     line-height: 1.5;
