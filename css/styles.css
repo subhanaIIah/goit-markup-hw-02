@@ -1,22 +1,24 @@
 body {
     background-color: #ffffff;
-    color: #ffffff;
+    color: #2E2F42;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.02em;
     font-weight: normal;
+}
+
+ul {
+    list-style: none;
 }
 .logo {
     color: #4D5AE5;
     text-transform: uppercase;
     text-decoration: none;
 }
-nav ul{
-    list-style-type: none;
-}
 nav a {
     text-decoration: none;
+    color: #2E2F42;
 }
 nav a:hover {
     color: #404BBF;
@@ -24,12 +26,12 @@ nav a:hover {
 nav a:focus {
     color: #404BBF;
 }
-.address ul {
-    list-style-type: none;
+.address {
+    font-style: normal;
 }
 .address a {
     text-decoration: none;
-    font-style: normal;
+    color: #2E2F42;
 }
 .address a:focus {
     color: #404BBF;
@@ -37,23 +39,23 @@ nav a:focus {
 .address a:hover {
     color: #404BBF;
 }
-h1 {
+.hero-title {
     font-size: 56px;
-    line-height: 1.25;
-    letter-spacing: 0.2em;
+    line-height: 1;
+    letter-spacing: 0.02em;
     color: #ffffff;
     text-align: center;
     font-weight: bold;
 }
 .button {
-    size: 16px;
+    font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.4em;
+    letter-spacing: 0.02em;
     background-color: #4D5AE5;
     color: #ffffff;
     border: none;
     cursor: pointer;
-    
+    font-weight: 500;
 }
 .button:hover {
     background-color: #404BBF;
@@ -61,66 +63,56 @@ h1 {
 .title {
     background-color: #2E2F42;
 }
-.features ul {
-    list-style-type: none;
-    color: black;
+.features-list {
+    color: #2E2F42;
 }
 .features h2 {
-    color: black;
+    color: #2E2F42;
     font-weight: bold;
     font-size: 36px;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.02em;
 }
 .team h2 {
     text-align: center;
     font-weight: bold;
     font-size: 36px;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
-.team {
-    background-color: #F4F4FD;
-}
-.team h2 {
-    color: black;
-}
-.team li {
+.team-list li {
     background-color: #ffffff;
-    list-style-type: none;
-    color: black;
+    color: #2E2F42;
 }
 .team h3 {
     text-align: center;
-    font-weight: medium;
+    font-weight: 500;
     font-size: 20px;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.02em;
 }
 .team p {
     text-align: center;
     font-size: 16px;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.02em;
     line-height: 1.5;
 }
 .portfolio h2 {
     text-align: center;
     font-weight: bold;
     font-size: 36px;
-    letter-spacing: 0.2em;
-    color: black;
-}
-.portfolio ul {
-    list-style-type: none;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 .portfolio h3 {
-    font-weight: medium;
+    font-weight: 500;
     font-size: 20px;
-    letter-spacing: 0.2em;
-    color: black;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 .portfolio p {
     font-size: 16px;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.02em;
     line-height: 1.5;
-    color: black;
+    color: #2E2F42;
 }
 .footer {
     background-color: #2E2F42;
