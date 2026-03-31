@@ -17,6 +17,9 @@ ul {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 .nav-link {
     text-decoration: none;
@@ -35,7 +38,7 @@ ul {
 .address-link {
     text-decoration: none;
     color: #434455;
-    font-weight: 500;
+    font-weight: 400;
 }
 .address-link:focus {
     color: #404BBF;
@@ -70,14 +73,14 @@ ul {
 .title {
     background-color: #2E2F42;
 }
-.features-list h3 {
+.feature-title {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.features-list p {
+.feature-description {
     color: #434455;
 }
 .section-title {
@@ -86,6 +89,7 @@ ul {
     font-size: 36px;
     letter-spacing: 0.02em;
     text-align: center;
+    line-height: 1.11;
 }
 .team {
     background-color: #F4F4FD;
@@ -99,18 +103,21 @@ ul {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
+    line-height: 1.2;
 }
 .team-role {
     text-align: center;
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
+    color: #434455;
 }
 .portfolio-title {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    line-height: 1.2;
 }
 .portfolio-category {
     font-size: 16px;
@@ -126,10 +133,14 @@ ul {
     color: #4D5AE5;
     text-transform: uppercase;
 }
+.studio2 {
+    color: #2E2F42;
+    text-transform: uppercase;
+}
 .studio {
     text-transform: uppercase;
     color: #F4F4FD;
 }
-.footer a {
+.footer-logo {
     text-decoration: none;
 }
