@@ -143,4 +143,9 @@ ul {
 }
 .footer-logo {
     text-decoration: none;
+      font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  color: #4d5ae5;
 }
